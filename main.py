@@ -9,5 +9,9 @@ while True:
     if value_system == value:
         print("You win")
         break  
+    elif value_system > value:
+        print("The number guessed is higher")
+    elif value_system < value:
+        print("The number guessed is less")
     else:
         print("Try again!")
